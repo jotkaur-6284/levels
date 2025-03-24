@@ -1,0 +1,77 @@
+.main{
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.lg{
+    height: 11vh;
+    width: 15vh;
+    margin-left: 2%;
+}
+.none{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 10vh;
+    font-size: x-large;
+    /* border: 2px solid red; */
+    background: radial-gradient(circle, rgba(149, 149, 155, 0.632) 30%, rgba(255, 255, 255, 0.258) 90%);
+}
+.n:hover{
+    height: auto;
+    /* width: 15vh; */
+    color: aliceblue;
+    border-radius: 10vh;
+    background-color: rgba(0, 0, 0, 0.534);
+    font-size: 105%;
+}
+.maint{
+    display: flex;
+}
+.two{
+    width: 50%;
+    margin-left: 5%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color: rgba(128, 128, 128, 0.422);
+    border: none;
+    border-radius: 10px;
+    height: 7vh;
+    width: 20vh;
+    font-size: larger;
+}
+.btn:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.763);
+}
+
+.fthree{
+    width: 50%;
+}
+.img1{
+    height: 50vh;
+    width: 60vh;
+    margin-left: 30%;
+}
+.inpt{
+    height: 30%;
+    width: 100%;
+    background: radial-gradient(circle, rgba(149, 149, 155, 0.806) 30%, rgba(255, 255, 255, 0.769) 90%);
+    justify-content:space-around;
+    align-items: center;
+    display: flex;
+}
+
+.lgo{
+    height: 5vh;
+    width: 10vh;
+}
+.end{
+    height: 20vh;
+    width: 80vh;
+}
+h1{
+    color: blueviolet;
+}

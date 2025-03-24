@@ -1,0 +1,221 @@
+.main {
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    background-image: url("img/one.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(118, 104, 104, 0.596);
+    z-index: 1;
+}
+.l{
+    height: 90%;
+    margin: 0.8%;
+}
+.one {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    font-size: xx-large;
+    position: fixed;
+    top: 0;
+    z-index: 100; 
+    transition: background 0.3s ease-in-out;
+}
+.one.scrolled {
+    color: white;
+    background: rgb(93, 38, 164); 
+}
+.o {
+    width: 50%;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 5px;
+}
+
+.o:hover {
+    background-color: rgba(0, 0, 0, 0.648);
+    color: aliceblue;
+}
+
+.onet {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.content{
+    height: 50vh;
+    font-size: 350%;
+    width: 65%;
+    z-index: 2;
+    position: relative;
+    font-weight: bold; 
+    margin-left: 15%;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #7245da, #9a2da8);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+}
+.btn:hover {
+    background: linear-gradient(45deg, #9a2da8, #7245da);
+    box-shadow: 10px 4px 15px rgba(0, 0, 0, 0.5);
+}
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* nav bar and photo end*/
+
+.secmain{
+    height: fit-content;
+    width: 100%;
+    }
+.head{
+    font-size: 400%;
+    text-align: center;
+    color: #000000;
+
+}
+.secone{
+    height: 70%;
+    width: 100%;
+    margin-top: 5%;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sot {
+    height: 40vh;
+    width: 20%;
+    font-size: 40px;
+    background: white;
+}
+.sot:hover{
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 10%;
+    border-bottom-right-radius: 0%;
+    background-color: #3624c067;
+}
+.sot:hover h6 {
+    color: rgb(0, 0, 0);
+}
+.fa-solid{
+    margin-left: 12vh;
+    font-size: 200%;
+}
+
+h6{
+    color: #b728c1;
+    text-align: center;
+    margin-block-start: 0.33em;
+    margin-block-end: 0.33em;
+}
+.cont{
+    color: black;
+    margin-block-start: 0.33em;
+    font-size: 45%;
+    text-align: center;
+    font-weight: normal;
+}
+.third{
+    margin-top: 5%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.to{
+    width: 40%;
+    font-size: 150%;
+}
+.hed{
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    color: #7245da;
+    border: 2px solid rgb(181, 39, 200);
+    margin-top: 10%;
+    border-radius: 20px;
+}
+.elig{
+    width: 80%;
+    margin-left: 15%;
+    font-size: 90%;
+}
+.four{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    align-content: space-evenly;
+    justify-items: center;
+
+}
+.f{
+    height: 50%;
+    width: 70%;
+    border: 2px solid #7245da;
+    margin: 2%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 150%;
+    
+}
+.f:hover{
+    height: 55%;
+    color: white;
+    background: linear-gradient(45deg, #9a2da8, #7245da);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+
+}
+.footer{
+    height: 40vh;
+    width: 100%;
+    border: 2px solid;
+    margin-top: 15%;
+    display:flex;
+    justify-content: space-evenly;
+    background: linear-gradient(45deg, #9a2da878, #7245da8a);
+
+
+}
+.lf{
+    height: 40vh;
+    width: 60vh;
+
+}
+.oside{
+    margin-left: 5%;
+}
+.tside{
+    height: 40vh;
+    width: 40%;
+}
